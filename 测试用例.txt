@@ -1,0 +1,156 @@
+﻿测试用例一:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([2, 7, 8, 14, 15, 11, 16]);//一对
+cardArray.push([2, 7, 21, 8, 15, 11, 16]);//两对
+cardArray.push([1, 15, 2, 28, 6, 43, 51]);//三条
+cardArray.push([3, 2, 19, 18, 17, 7, 8]);//顺子
+cardArray.push([3, 7, 9, 11, 12, 15, 50]);//同花
+cardArray.push([3, 16, 29, 2, 15, 11, 17]);//满堂红
+cardArray.push([1, 15, 2, 28, 41, 43, 51]);//四条
+cardArray.push([3, 2, 6, 5, 4, 7, 8]);//同花顺
+cardArray.push([1, 3, 2, 4, 6, 5, 51]);//同花大顺
+cardArray.push([1, 3, 2, 4, 6, 5, 51]);//假如有两个相同的同花大顺
+
+测试用例二:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([2, 7, 8, 14, 15, 11, 16]);//一对
+cardArray.push([2, 7, 21, 8, 15, 11, 16]);//两对
+cardArray.push([1, 15, 2, 28, 6, 43, 51]);//三条
+cardArray.push([3, 2, 19, 18, 17, 7, 8]);//顺子
+cardArray.push([3, 7, 9, 11, 12, 15, 50]);//同花
+cardArray.push([3, 16, 29, 2, 15, 11, 17]);//满堂红
+cardArray.push([1, 15, 2, 28, 41, 43, 51]);//四条
+cardArray.push([3, 2, 6, 5, 4, 7, 8]);//同花顺
+cardArray.push([3, 2, 6, 5, 4, 7, 8]);//相同的同花顺
+
+测试用例三:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([2, 7, 8, 14, 15, 11, 16]);//一对
+cardArray.push([2, 7, 21, 8, 15, 11, 16]);//两对
+cardArray.push([1, 15, 2, 28, 6, 43, 51]);//三条
+cardArray.push([3, 2, 19, 18, 17, 7, 8]);//顺子
+cardArray.push([3, 7, 9, 11, 12, 15, 50]);//同花
+cardArray.push([3, 16, 29, 2, 15, 11, 17]);//满堂红
+cardArray.push([1, 15, 2, 28, 41, 43, 51]);//四条
+cardArray.push([3, 2, 6, 5, 4, 7, 8]);//同花顺
+cardArray.push([4, 3, 7, 6, 5, 8, 9]);//不同的同花顺
+
+测试用例四:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([2, 7, 8, 14, 15, 11, 16]);//一对
+cardArray.push([2, 7, 21, 8, 15, 11, 16]);//两对
+cardArray.push([1, 15, 2, 28, 6, 43, 51]);//三条
+cardArray.push([3, 2, 19, 18, 17, 7, 8]);//顺子
+cardArray.push([3, 7, 9, 11, 12, 15, 50]);//同花
+cardArray.push([3, 16, 29, 2, 15, 11, 17]);//满堂红
+cardArray.push([1, 15, 2, 28, 41, 43, 51]);//四条
+cardArray.push([1, 15, 2, 28, 41, 43, 51]);//相同的四条
+
+测试用例五:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([2, 7, 8, 14, 15, 11, 16]);//一对
+cardArray.push([2, 7, 21, 8, 15, 11, 16]);//两对
+cardArray.push([1, 15, 2, 28, 6, 43, 51]);//三条
+cardArray.push([3, 2, 19, 18, 17, 7, 8]);//顺子
+cardArray.push([3, 7, 9, 11, 12, 15, 50]);//同花
+cardArray.push([3, 16, 29, 2, 15, 11, 17]);//满堂红
+cardArray.push([1, 15, 2, 28, 41, 43, 51]);//四条
+cardArray.push([1, 16, 3, 29, 42, 43, 51]);//不相同的四条
+
+测试用例六:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([2, 7, 8, 14, 15, 11, 16]);//一对
+cardArray.push([2, 7, 21, 8, 15, 11, 16]);//两对
+cardArray.push([1, 15, 2, 28, 6, 43, 51]);//三条
+cardArray.push([3, 2, 19, 18, 17, 7, 8]);//顺子
+cardArray.push([3, 7, 9, 11, 12, 15, 50]);//同花
+cardArray.push([3, 16, 29, 2, 15, 11, 17]);//满堂红
+cardArray.push([3, 16, 29, 2, 15, 11, 17]);//相同的满堂红
+
+测试用例七:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([2, 7, 8, 14, 15, 11, 16]);//一对
+cardArray.push([2, 7, 21, 8, 15, 11, 16]);//两对
+cardArray.push([1, 15, 2, 28, 6, 43, 51]);//三条
+cardArray.push([3, 2, 19, 18, 17, 7, 8]);//顺子
+cardArray.push([3, 7, 9, 11, 12, 15, 50]);//同花
+cardArray.push([3, 16, 29, 2, 15, 11, 17]);//满堂红
+cardArray.push([4, 17, 30, 2, 15, 11, 19]);//不相同的满堂红
+
+测试用例八:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([2, 7, 8, 14, 15, 11, 16]);//一对
+cardArray.push([2, 7, 21, 8, 15, 11, 16]);//两对
+cardArray.push([1, 15, 2, 28, 6, 43, 51]);//三条
+cardArray.push([3, 2, 19, 18, 17, 7, 8]);//顺子
+cardArray.push([3, 7, 9, 11, 12, 15, 50]);//同花
+cardArray.push([3, 7, 9, 11, 12, 15, 50]);//相同的同花
+
+测试用例九:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([2, 7, 8, 14, 15, 11, 16]);//一对
+cardArray.push([2, 7, 21, 8, 15, 11, 16]);//两对
+cardArray.push([1, 15, 2, 28, 6, 43, 51]);//三条
+cardArray.push([3, 2, 19, 18, 17, 7, 8]);//顺子
+cardArray.push([3, 7, 9, 11, 12, 15, 50]);//同花
+cardArray.push([4, 8, 1, 5, 7, 15, 50]);//不相同的同花
+
+测试用例十:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([2, 7, 8, 14, 15, 11, 16]);//一对
+cardArray.push([2, 7, 21, 8, 15, 11, 16]);//两对
+cardArray.push([1, 15, 2, 28, 6, 43, 51]);//三条
+cardArray.push([3, 2, 19, 18, 17, 7, 8]);//顺子
+cardArray.push([3, 2, 19, 18, 17, 7, 8]);//相同的顺子
+
+测试用例十一:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([2, 7, 8, 14, 15, 11, 16]);//一对
+cardArray.push([2, 7, 21, 8, 15, 11, 16]);//两对
+cardArray.push([1, 15, 2, 28, 6, 43, 51]);//三条
+cardArray.push([3, 2, 19, 18, 17, 7, 8]);//顺子
+cardArray.push([4, 3, 20, 19, 18, 7, 8]);//不相同的顺子
+
+测试用例十二:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([2, 7, 8, 14, 15, 11, 16]);//一对
+cardArray.push([2, 7, 21, 8, 15, 11, 16]);//两对
+cardArray.push([1, 15, 2, 28, 6, 43, 51]);//三条
+cardArray.push([1, 15, 2, 28, 6, 43, 51]);//相同的三条
+
+测试用例十三:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([2, 7, 8, 14, 15, 11, 16]);//一对
+cardArray.push([2, 7, 21, 8, 15, 11, 16]);//两对
+cardArray.push([1, 15, 2, 28, 6, 43, 51]);//三条
+cardArray.push([1, 16, 3, 29, 6, 43, 51]);//不相同的三条
+
+测试用例十四:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([2, 7, 8, 14, 15, 11, 16]);//一对
+cardArray.push([2, 7, 21, 8, 15, 11, 16]);//两对
+cardArray.push([2, 7, 21, 8, 15, 11, 16]);//相同的两对
+
+测试用例十五:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([2, 7, 8, 14, 15, 11, 16]);//一对
+cardArray.push([2, 7, 21, 8, 15, 11, 16]);//两对
+cardArray.push([3, 7, 21, 8, 16, 11, 19]);//不相同的两对
+
+测试用例十六:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([2, 7, 8, 14, 15, 11, 16]);//一对
+cardArray.push([2, 7, 8, 14, 15, 11, 16]);//相同的一对
+
+测试用例十七:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([2, 7, 8, 14, 15, 11, 16]);//一对
+cardArray.push([3, 7, 8, 14, 16, 11, 17]);//不相同的一对
+
+测试用例十八:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//相同高牌
+
+测试用例十八:
+cardArray.push([1, 16, 5, 32, 20, 8, 50]);//高牌
+cardArray.push([2, 16, 5, 32, 20, 8, 50]);//不相同高牌
